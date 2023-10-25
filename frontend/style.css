@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Poppins-Dark;
+  src: url(./fonts/Lato_Poppins/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(./fonts/Lato_Poppins/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: url(./fonts/Lato_Poppins/Poppins/Poppins-Light.ttf);
+}
+* {
+  margin: 0%;
+  font-family: Poppins-Medium;
+}
+/* Nav Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  width: 90%;
+}
+.logo-container {
+  max-width: 40px;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.logo-container img {
+  width: 100%;
+}
+.nav-center {
+  display: flex;
+  gap: 2rem;
+}
+.nav-center > a {
+  color: black;
+  text-decoration: none;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav-right :nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-right img {
+  width: 20px;
+}
+/* Nav Bar Buttons */
+.nav-btn {
+  background: none;
+  padding: 3% 3%;
+}
+#login-btn {
+  border: 1px solid #f0e3fd;
+}
+#login-btn span {
+  background-color: #f0e3fd;
+  padding: 0.3rem 1rem;
+}
+#reg-btn {
+  border: 1px solid #a372d5;
+}
+#reg-btn span {
+  background-color: #a372d5;
+  padding: 0.3rem 1rem;
+  color: white;
+}
+/* Main Body Section */
+main {
+  padding: 5%;
+  padding-top: 0%;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10%;
+}
+.hero-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5%;
+}
+.hero-center h1 {
+  font-family: Poppins-Light;
+  text-align: center;
+  font-size: 60px;
+}
+.hero-center p {
+  font-family: Poppins-Light;
+}
+/* Hero section Buttons */
+.hero-center-btns {
+  display: flex;
+  padding: 5% 0;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+.hero-btn {
+  background: none;
+  white-space: nowrap;
+  padding: 2% 2%;
+}
+#login-btn {
+  border: 1px solid #f0e3fd;
+}
+#login-btn span {
+  background-color: #f0e3fd;
+  padding: 0.3rem 1rem;
+}
+#reg-btn {
+  border: 1px solid #a372d5;
+}
+#reg-btn span {
+  background-color: #a372d5;
+  padding: 0.3rem 1rem;
+  color: white;
+}
+/* About Section */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+.services h1 {
+  font-family: Poppins-Light;
+  white-space: nowrap;
+  font-size: 60px;
+}
